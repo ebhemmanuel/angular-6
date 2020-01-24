@@ -1,0 +1,659 @@
+[class^='icon-'],
+[class*=' icon-'],
+[class*=' uo-'] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'uo_ui-icons' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-decrease {
+	&:before {
+		content: $icon-decrease;
+	}
+}
+.icon-lock {
+	&:before {
+		content: $icon-lock;
+	}
+}
+.icon-increase {
+	&:before {
+		content: $icon-increase;
+	}
+}
+.icon-info {
+	&:before {
+		content: $icon-info;
+	}
+}
+.icon-unlock {
+	&:before {
+		content: $icon-unlock;
+	}
+}
+.icon-uo-ship-to {
+	&:before {
+		content: $icon-uo-ship-to;
+	}
+}
+.icon-open-star {
+	&:before {
+		content: $icon-open-star;
+	}
+}
+.icon-cabanas {
+	&:before {
+		content: $icon-cabanas;
+	}
+}
+.icon-hhn {
+	&:before {
+		content: $icon-hhn;
+	}
+}
+.icon-myuniversalphotos {
+	&:before {
+		content: $icon-myuniversalphotos;
+	}
+}
+.icon-genericphotoicon {
+	&:before {
+		content: $icon-genericphotoicon;
+	}
+}
+.icon-premium-seats {
+	&:before {
+		content: $icon-premium-seats;
+	}
+}
+.icon-volcano-bay {
+	&:before {
+		content: $icon-volcano-bay;
+	}
+}
+.icon-globe {
+	&:before {
+		content: $icon-globe;
+	}
+}
+.icon-upr-globe {
+	&:before {
+		content: $icon-upr-globe;
+	}
+}
+.icon-phone-buzz {
+	&:before {
+		content: $icon-phone-buzz;
+	}
+}
+.icon-credit {
+	&:before {
+		content: $icon-credit;
+	}
+}
+.icon-wallet {
+	&:before {
+		content: $icon-wallet;
+	}
+}
+.icon-double-chevron-up {
+	&:before {
+		content: $icon-double-chevron-up;
+	}
+}
+.icon-double-chevron-down {
+	&:before {
+		content: $icon-double-chevron-down;
+	}
+}
+.icon-ride-coaster {
+	&:before {
+		content: $icon-ride-coaster;
+	}
+}
+.icon-single-rider {
+	&:before {
+		content: $icon-single-rider;
+	}
+}
+.icon-open-caption {
+	&:before {
+		content: $icon-open-caption;
+	}
+}
+.icon-citywalk-party-movie {
+	&:before {
+		content: $icon-citywalk-party-movie;
+	}
+}
+.icon-motion {
+	&:before {
+		content: $icon-motion;
+	}
+}
+.icon-uoap-b {
+	&:before {
+		content: $icon-uoap-b;
+	}
+}
+.icon-flex-b {
+	&:before {
+		content: $icon-flex-b;
+	}
+}
+.icon-ada-b {
+	&:before {
+		content: $icon-ada-b;
+	}
+}
+.icon-plus-b {
+	&:before {
+		content: $icon-plus-b;
+	}
+}
+.icon-calendar-c {
+	&:before {
+		content: $icon-calendar-c;
+	}
+}
+.icon-pass-premier {
+	&:before {
+		content: $icon-pass-premier;
+	}
+}
+.icon-pass-preferred {
+	&:before {
+		content: $icon-pass-preferred;
+	}
+}
+.icon-pass-power {
+	&:before {
+		content: $icon-pass-power;
+	}
+}
+.icon-weather-night-clear {
+	&:before {
+		content: $icon-weather-night-clear;
+	}
+}
+.icon-weather-night-partly-cloudy {
+	&:before {
+		content: $icon-weather-night-partly-cloudy;
+	}
+}
+.icon-weather-day-clear {
+	&:before {
+		content: $icon-weather-day-clear;
+	}
+}
+.icon-weather-day-partly-cloudy {
+	&:before {
+		content: $icon-weather-day-partly-cloudy;
+	}
+}
+.icon-weather-heavy-rain {
+	&:before {
+		content: $icon-weather-heavy-rain;
+	}
+}
+.icon-weather-light-rain {
+	&:before {
+		content: $icon-weather-light-rain;
+	}
+}
+.icon-weather-cloudy {
+	&:before {
+		content: $icon-weather-cloudy;
+	}
+}
+.icon-weather-severe {
+	&:before {
+		content: $icon-weather-severe;
+	}
+}
+.icon-pinterest {
+	&:before {
+		content: $icon-pinterest;
+	}
+}
+.icon-google-plus {
+	&:before {
+		content: $icon-google-plus;
+	}
+}
+.icon-twitter {
+	&:before {
+		content: $icon-twitter;
+	}
+}
+.icon-twitter-logo {
+	&:before {
+		content: $icon-twitter-logo;
+	}
+}
+.icon-facebook {
+	&:before {
+		content: $icon-facebook;
+	}
+}
+.icon-facebook-box {
+	&:before {
+		content: $icon-facebook-box;
+	}
+}
+.icon-facebook-logo {
+	&:before {
+		content: $icon-facebook-logo;
+	}
+}
+.icon-instagram {
+	&:before {
+		content: $icon-instagram;
+	}
+}
+.icon-instagram-logo {
+	&:before {
+		content: $icon-instagram-logo;
+	}
+}
+.icon-email {
+	&:before {
+		content: $icon-email;
+	}
+}
+.icon-3d-4d {
+	&:before {
+		content: $icon-3d-4d;
+	}
+}
+.icon-water-ride-b {
+	&:before {
+		content: $icon-water-ride-b;
+	}
+}
+.icon-kid-ride {
+	&:before {
+		content: $icon-kid-ride;
+	}
+}
+.icon-dining-b {
+	&:before {
+		content: $icon-dining-b;
+	}
+}
+.icon-dining-fine {
+	&:before {
+		content: $icon-dining-fine;
+	}
+}
+.icon-dining-full {
+	&:before {
+		content: $icon-dining-full;
+	}
+}
+.icon-dining-quick {
+	&:before {
+		content: $icon-dining-quick;
+	}
+}
+.icon-show-action {
+	&:before {
+		content: $icon-show-action;
+	}
+}
+.icon-show-comedy {
+	&:before {
+		content: $icon-show-comedy;
+	}
+}
+.icon-show-music {
+	&:before {
+		content: $icon-show-music;
+	}
+}
+.icon-show-parade {
+	&:before {
+		content: $icon-show-parade;
+	}
+}
+.icon-package-pickup {
+	&:before {
+		content: $icon-package-pickup;
+	}
+}
+.icon-wheelchair-transfer {
+	&:before {
+		content: $icon-wheelchair-transfer;
+	}
+}
+.icon-child-swap {
+	&:before {
+		content: $icon-child-swap;
+	}
+}
+.icon-ecv {
+	&:before {
+		content: $icon-ecv;
+	}
+}
+.icon-assistive-listening {
+	&:before {
+		content: $icon-assistive-listening;
+	}
+}
+.icon-rider-height {
+	&:before {
+		content: $icon-rider-height;
+	}
+}
+.icon-sign-language {
+	&:before {
+		content: $icon-sign-language;
+	}
+}
+.icon-closed-caption {
+	&:before {
+		content: $icon-closed-caption;
+	}
+}
+.icon-apple {
+	&:before {
+		content: $icon-apple;
+	}
+}
+.icon-parental-discretion {
+	&:before {
+		content: $icon-parental-discretion;
+	}
+}
+.icon-companion-rider {
+	&:before {
+		content: $icon-companion-rider;
+	}
+}
+.icon-life-jacket {
+	&:before {
+		content: $icon-life-jacket;
+	}
+}
+.icon-seating {
+	&:before {
+		content: $icon-seating;
+	}
+}
+.icon-ada {
+	&:before {
+		content: $icon-ada;
+	}
+}
+.icon-character-breakfast {
+	&:before {
+		content: $icon-character-breakfast;
+	}
+}
+.icon-hhn3 {
+	&:before {
+		content: $icon-hhn3;
+	}
+}
+.icon-menu {
+	&:before {
+		content: $icon-menu;
+	}
+}
+.icon-close {
+	&:before {
+		content: $icon-close;
+	}
+}
+.icon-plus {
+	&:before {
+		content: $icon-plus;
+	}
+}
+.icon-checked {
+	&:before {
+		content: $icon-checked;
+	}
+}
+.icon-info-circled {
+	&:before {
+		content: $icon-info-circled;
+	}
+}
+.icon-zoom {
+	&:before {
+		content: $icon-zoom;
+	}
+}
+.icon-search {
+	&:before {
+		content: $icon-search;
+	}
+}
+.icon-ok-circled {
+	&:before {
+		content: $icon-ok-circled;
+	}
+}
+.icon-expand {
+	&:before {
+		content: $icon-expand;
+	}
+}
+.icon-location {
+	&:before {
+		content: $icon-location;
+	}
+}
+.icon-pause {
+	&:before {
+		content: $icon-pause;
+	}
+}
+.icon-play {
+	&:before {
+		content: $icon-play;
+	}
+}
+.icon-bmg {
+	&:before {
+		content: $icon-bmg;
+	}
+}
+.icon-express-pass-ticket {
+	&:before {
+		content: $icon-express-pass-ticket;
+	}
+}
+.icon-park-ticket-wetnwild {
+	&:before {
+		content: $icon-park-ticket-wetnwild;
+	}
+}
+.icon-uni-dining-plan {
+	&:before {
+		content: $icon-uni-dining-plan;
+	}
+}
+.icon-dining {
+	&:before {
+		content: $icon-dining;
+	}
+}
+.icon-photo-connect-star-card {
+	&:before {
+		content: $icon-photo-connect-star-card;
+	}
+}
+.icon-eve {
+	&:before {
+		content: $icon-eve;
+	}
+}
+.icon-cine-spectacular-dining-exp {
+	&:before {
+		content: $icon-cine-spectacular-dining-exp;
+	}
+}
+.icon-most-popular {
+	&:before {
+		content: $icon-most-popular;
+	}
+}
+.icon-more-extras {
+	&:before {
+		content: $icon-more-extras;
+	}
+}
+.icon-shows-entertainment {
+	&:before {
+		content: $icon-shows-entertainment;
+	}
+}
+.icon-water-parks {
+	&:before {
+		content: $icon-water-parks;
+	}
+}
+.icon-park-tickets {
+	&:before {
+		content: $icon-park-tickets;
+	}
+}
+.icon-express-pass {
+	&:before {
+		content: $icon-express-pass;
+	}
+}
+.icon-express-unlimited {
+	&:before {
+		content: $icon-express-unlimited;
+	}
+}
+.icon-vip {
+	&:before {
+		content: $icon-vip;
+	}
+}
+.icon-stroller {
+	&:before {
+		content: $icon-stroller;
+	}
+}
+.icon-citywalk-movie-alt {
+	&:before {
+		content: $icon-citywalk-movie-alt;
+	}
+}
+.icon-dining-movie {
+	&:before {
+		content: $icon-dining-movie;
+	}
+}
+.icon-citywalk-minigolf {
+	&:before {
+		content: $icon-citywalk-minigolf;
+	}
+}
+.icon-citywalk-party {
+	&:before {
+		content: $icon-citywalk-party;
+	}
+}
+.icon-coke {
+	&:before {
+		content: $icon-coke;
+	}
+}
+.icon-wetnwild {
+	&:before {
+		content: $icon-wetnwild;
+	}
+}
+.icon-unidining-coke {
+	&:before {
+		content: $icon-unidining-coke;
+	}
+}
+.icon-citywalk-movie {
+	&:before {
+		content: $icon-citywalk-movie;
+	}
+}
+.icon-rtu {
+	&:before {
+		content: $icon-rtu;
+	}
+}
+.icon-arrow-double {
+	&:before {
+		content: $icon-arrow-double;
+	}
+}
+.icon-arrow-right {
+	&:before {
+		content: $icon-arrow-right;
+	}
+}
+.icon-arrow-left {
+	&:before {
+		content: $icon-arrow-left;
+	}
+}
+.icon-arrow-down {
+	&:before {
+		content: $icon-arrow-down;
+	}
+}
+.icon-arrow-up {
+	&:before {
+		content: $icon-arrow-up;
+	}
+}
+.icon-placeholder {
+	&:before {
+		content: $icon-placeholder;
+	}
+}
+.icon-cart {
+	&:before {
+		content: $icon-cart;
+	}
+}
+.icon-youtube-logo {
+	&:before {
+		content: $icon-youtube-logo;
+	}
+}
+
+// Custom bullet points
+ul.bullet-circle {
+	position: relative;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 26px;
+	margin-bottom: 28px;
+}
+ul.bullet-circle li {
+	margin-bottom: 8px;
+}
+ul.bullet-circle li:before {
+	content: '\2B24';
+	position: absolute;
+	left: 0;
+	color: $color-primary-bright-blue;
+}
+
+.step-checked-icon:before {
+	content: '\e60d';
+}

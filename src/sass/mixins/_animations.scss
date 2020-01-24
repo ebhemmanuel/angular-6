@@ -1,0 +1,39 @@
+@import 'utils';
+
+//usage: @include transition(color .3s ease);
+@mixin transition($transition...) {
+	@include prefix(transition, $transition);
+}
+
+// usage
+//@include skew(25,10);
+//@include transform-origin(top left);
+
+@mixin transform($transforms) {
+	@include prefix(transform, $transforms);
+}
+
+// rotate
+@mixin rotate($deg) {
+	@include transform(rotate(#{$deg}deg));
+}
+
+// scale
+@mixin scale($scale) {
+	@include transform(scale($scale));
+}
+
+// translate
+@mixin translate($x, $y) {
+	@include transform(translate($x, $y));
+}
+
+// skew
+@mixin skew($x, $y) {
+	@include transform(skew(#{$x}deg, #{$y}deg));
+}
+
+//transform origin
+@mixin transform-origin($origin) {
+	@include prefix(transform-origin, $origin);
+}

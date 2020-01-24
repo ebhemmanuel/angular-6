@@ -5,7 +5,11 @@
   "projects": {
     "testProject": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -23,10 +27,11 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
+            "styles": ["src/sass/styles.scss"],
+            "scripts": [],
+            "stylePreprocessorOptions": {
+							"includePaths": ["src/sass"]
+						}
           },
           "configurations": {
             "production": {
@@ -89,9 +94,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "stylePreprocessorOptions": {
+							"includePaths": ["src/sass"]
+						}
           }
         },
         "lint": {
