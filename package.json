@@ -22,7 +22,7 @@
     "foundation-apps": "^1.2.0",
     "foundation-sites": "^6.5.3",
     "ngx-foundation": "^1.0.8",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
