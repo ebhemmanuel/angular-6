@@ -1,4 +1,12 @@
+@import 'defaults/index';
+@include breakpoint(large) {
 
-section {
-    color: $color-red;
+}
+section.header {
+    color: $color-white;
+    background: #999;
+    .row {
+        padding: 20px;
+        justify-content: space-between;
+    }
 }

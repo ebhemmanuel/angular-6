@@ -8,7 +8,7 @@
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss",
-          // "styleUrls":"src/sass/defaults/index.scss"
+          "styleUrls":"defaults/index.scss"
         }
       },
       "root": "",
@@ -28,13 +28,16 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": ["src/sass/styles.scss"],
-            "scripts": [],
             "stylePreprocessorOptions": {
 							"includePaths": [
                 "src/sass"
               ]
-						}
+						},
+            "styles": [
+              "src/sass/styles.scss",
+              "src/sass/defaults/index.scss" 
+            ],
+            "scripts": []
           },
           "configurations": {
             "production": {
